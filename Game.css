@@ -1,0 +1,77 @@
+body {
+	background-color: #101720;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+	text-align: center;
+}
+
+.text {
+	margin: none;
+	font-weight: bold;
+	font-size: 40px;
+}
+.game-box {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.js-button {
+	padding: 25px 150px;
+	border: none;
+	font-weight: bold;
+	color: black;
+}
+
+.js-numbers-display-is-toggled {
+	margin-bottom: 4rem;
+	font-size: 25px;
+	padding: 25px;
+}
+
+.js-yesno {
+	display: none;
+}
+.js-yesno2 {
+	display: none;
+}
+
+.js-text1 {
+	margin-top: 1rem;
+	font-size: 100px;
+	font-weight: bold;
+}
+
+.js-remove {
+	display: none;
+}
+.display-button {
+	display: block;
+	border: none;
+	padding: 25px;
+	margin-bottom: 1rem;
+}
+
+.yes {
+	background-color: blue;
+	color: white;
+	padding: 25px 150px;
+}
+.no {
+	padding: 25px 150px;
+	background-color: red;
+	color: white;
+}
+.remove {
+	display: none;
+}
+.js-display {
+	background-color: yellow;
+	border: none;
+	padding: 25px 125px;
+	display: block;
+}

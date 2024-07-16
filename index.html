@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>GuessGame</title>
+		<link rel="stylesheet" href="Game.css" />
+	</head>
+	<body>
+		<div class="game-box">
+			<p class="js-text text">Pick a number from 1-31</p>
+			<p class="js-numbers-display"></p>
+			<button onclick=" startWindow()" class="js-button">Start</button>
+			<button onclick="yes() " class="js-yesno yes"></button>
+			<button onclick="no()" class="js-yesno2 no"></button>
+			<button onclick="startWindow(), tryAgain()" class="js-try-again remove">
+				TRY AGAIN
+			</button>
+			<script src="Game.js"></script>
+		</div>
+	</body>
+</html>
